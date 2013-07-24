@@ -1,0 +1,21 @@
+{
+  "name": "makerfaire-drone-challange",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/http-server/bin/http-server  www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AdamMagaluk/makerfaire-drone-challange.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/AdamMagaluk/makerfaire-drone-challange/issues"
+  },
+  "dependencies": {
+    "http-server": "~0.5.5"
+  }
+}
