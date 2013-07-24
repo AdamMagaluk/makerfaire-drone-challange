@@ -1,8 +1,8 @@
 {
   "name": "makerfaire-drone-challange",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "2013 Detroit Maker Faire Drone Challenge",
+  "main": "",
   "scripts": {
     "start": "./node_modules/http-server/bin/http-server  www"
   },
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git://github.com/AdamMagaluk/makerfaire-drone-challange.git"
   },
-  "author": "",
-  "license": "BSD",
+  "author": "Adam Magaluk <AdamMagaluk@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AdamMagaluk/makerfaire-drone-challange/issues"
   },
