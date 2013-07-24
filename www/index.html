@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Detroit Maker Faire Drone Game</title>
+
+
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/bootstrap-responsive.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+</head>
+ 
+<body class="">
+
+<div class="header center">
+  <img src="/img/ribbonfarmlogo.png" width="200px" height="200px">
+  <h1>Maker Faire Drone Challenge</h1>
+</div>
+
+<br>
+
+<div class="center">
+  <div class="btn-container">
+    <a href="#challenge-window" data-toggle="modal">
+      <button class="start-btn btn btn-success">Start</button>
+    </a>
+  </div> 
+</div>
+
+<br>
+
+<div class="leader-board center">
+  <h2>Leader Board</h2>
+
+  <br>
+
+  <ul class="board">
+  </ul>
+  <br>
+  <a href="#" class="clear">Clear Scores?</p>
+
+</div>
+
+
+<!-- Modal -->
+<div id="challenge-window" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="challenge-window" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3>Drone Challenge</h3>
+  </div>
+  <div class="modal-body">
+    <div class="colors">
+      <div class="color color0"><h2>#1</h2></div> 
+      <div class="color color1"><h2>#2</h2></div> 
+      <div class="color color2"><h2>#3</h2></div> 
+      <div class="color color3"><h2>#4</h2></div> 
+    </div>
+
+    <div class="clock">
+      <h1 class="time">00:00.00</h1>
+    </div>
+
+    <div class="ctl-buttons">
+      <button id="go-btn" class="btn btn-success">Go!</button>
+      <button id="stop-btn" style="display:none;" class="btn btn-danger">Stop</button>
+      <button id="close-btn" style="display:none;" class="btn close" data-dismiss="modal" >Close</button>
+    </div>
+
+    <div class="name-entry">
+      <b>Name:</b><input type="text">
+    </div>
+
+  </div>
+</div>
+
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/app.js"></script>
+
+</body>
+</html>
+
