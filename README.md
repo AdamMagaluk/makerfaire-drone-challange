@@ -10,6 +10,6 @@ cd makerfaire-drone-challange
 npm start
 ```
 
-Now navigate to http://localhost:8080/
+Now navigate to [http://localhost:8080/][http://localhost:8080/]
 
 
