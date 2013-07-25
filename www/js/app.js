@@ -29,6 +29,9 @@ function MakerFaireColorApp(){
 }
 
 MakerFaireColorApp.prototype.onNewScore = function(name,time){
+  if(name.length === 0)
+	return;
+
   var scoreObj = {
     date : new Date(),
     name : name,
