@@ -7,6 +7,7 @@ Game designed to be used at the 2013 Detroit Maker Faire during Ribbon Farm's Dr
 ```
 git clone https://github.com/AdamMagaluk/makerfaire-drone-challange.git
 cd makerfaire-drone-challange
+npm install
 npm start
 ```
 
